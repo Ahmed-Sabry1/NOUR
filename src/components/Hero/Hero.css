@@ -68,7 +68,6 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    color: var(--third-color);
     font-size: 4rem;
     font-weight: bold;
     text-transform: capitalize;
@@ -112,11 +111,11 @@
 }
 
 .f-color {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Pacifico', cursive !important;
     color: #FF0821;
 }
 
 .s-color {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Pacifico', cursive !important;
     color: #FF0821;
 }
