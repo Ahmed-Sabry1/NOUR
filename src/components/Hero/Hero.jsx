@@ -52,7 +52,6 @@ function Hero() {
                                     initial={'initial'}
                                     animate={'animate'}
                                     variants={variants(person.delay)}
-                                    style={{ backgroundColor: person.bg }}
                                     className='person-pill-bg'>
                                         <motion.img
                                             initial={'initial'}
@@ -80,8 +79,8 @@ function Hero() {
                         whileInView='onScreen'
                         variants={titleVariants}
                     >
-                        <span>Happy Birthday</span>
-                        <span>Nourhan</span>
+                        <span className='f-color'>Happy Birthday</span>
+                        <span className='s-color'>Nourhan</span>
                     </motion.div>
                     <motion.div
                         className='h-des'
@@ -93,7 +92,7 @@ function Hero() {
                         Today is your day,
                         To be happy in each and every way,
                         Be happy keep smiling in every thing you do,
-                        Cause now I wish HAPPY BIRTHDAY to you
+                        Cause now I wish HAPPY BIRTHDAY NOUR
                     </motion.div>
                 </div>
             </div>
