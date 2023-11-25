@@ -1,0 +1,13 @@
+.f-wrapper .container {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.f-wrapper {
+    background-color: var(--primary-color);
+}
+
+.f-container {
+    text-align: center;
+}
